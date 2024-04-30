@@ -1,0 +1,40 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fcfeff;
+}
+.back{
+    height: 500px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+h1{
+    font-size: 3em;
+    font-family: sans-serif;
+    color: #757575;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color: #fff;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 7px;
+}
+h3{
+    padding: 0.5em;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #757575;
+    font-size: 0.8em;
+}
+.timer{
+    width:50%
+}
+.stopwatch{
+    width:50%
+}
