@@ -9,17 +9,37 @@
 </head>
 <body>
     <div class="container back">
-    <h1>Stopwatch & Timer</h1>
-    <div class="container main">
-        <div class="timer">
-            <h3><i class="fa-solid fa-hourglass"></i> timer</h3>
-            <hr>
-        </div>
-        <div class="stopwatch">
-            <h3><i class="fa-regular fa-clock"></i> stopwatch</h3>
-            <hr>
+        <h1>Stopwatch & Timer</h1>
+        <div class="container main">
+            <div class="timerDiv">
+                <h3><i class="fa-solid fa-hourglass"></i> timer</h3>
+                <hr>
+                <div class="timerWatchDivChild">
+                <div id="timer">
+                    <span>5</span> <sub>s</sub> <span class="span-zero">00</span> 
+                </div> 
+                <div>
+                    <button id="startStopTimer">Start</button> 
+                    <button id="resetTimer" type="button">Reset</button>
+                </div>
+                </div>
+            </div>
+            <div class="stopwatchDiv">
+                <h3><i class="fa-regular fa-clock"></i> stopwatch</h3>
+                <hr>
+                <div class="timerWatchDivChild">
+                    <div id="timer">
+                        <span>5</span> <sub>s</sub> <span class="span-zero">00</span> 
+                    </div> 
+                    <div>
+                        <button id="startStopTimer">Start</button> 
+                        <button id="resetTimer" type="button">Reset</button>
+                    </div>
+                    </div>
+            </div>
         </div>
     </div>
-  </div>
+
+    <script src="app.js"></script> <!-- JavaScript code ko yahan include kiya -->
 </body>
 </html>
