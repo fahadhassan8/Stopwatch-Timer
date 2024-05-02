@@ -16,11 +16,11 @@
                 <hr>
                 <div class="timerWatchDivChild">
                 <div id="timer">
-                    <span>5</span> <sub>s</sub> <span class="span-zero">00</span> 
+                    <span>5</span> <sub>m</sub> <span class="span-zero">00</span> 
                 </div> 
                 <div>
-                    <button id="startStopTimer">Start</button> 
-                    <button id="resetTimer" type="button">Reset</button>
+                    <button id="startStop">Start</button> 
+                    <button id="reset" type="button">Reset</button>
                 </div>
                 </div>
             </div>
@@ -28,18 +28,52 @@
                 <h3><i class="fa-regular fa-clock"></i> stopwatch</h3>
                 <hr>
                 <div class="timerWatchDivChild">
-                    <div id="timer">
-                        <span>5</span> <sub>s</sub> <span class="span-zero">00</span> 
-                    </div> 
+                    <div id="stopwatch">
+                        <span id="hours">00</span><sub>h</sub>
+                        <span id="minutes">0</span><sub>m</sub>
+                        <span id="seconds">00</span><sub>s</sub>
+                        <span class="span-zero" id="milliseconds">00</span>
+                    </div>
                     <div>
-                        <button id="startStopTimer">Start</button> 
-                        <button id="resetTimer" type="button">Reset</button>
+                        <button id="startStopWatchBtn">Start</button>
+                        <button id="resetWatchBtn" type="button">Reset</button>
                     </div>
-                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="stopwatchDiv">
+        <h3><i class="fa-regular fa-clock"></i> Stopwatch</h3>
+        <hr>
+        <div class="timerWatchDivChild">
+            <div id="stopwatch">
+                <span id="hours">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>.
+                <span id="milliseconds">00</span>
+            </div> 
+            <div>
+                <button id="startStop">Start</button> 
+                <button id="reset" type="button">Reset</button>
             </div>
         </div>
     </div>
 
-    <script src="app.js"></script> <!-- JavaScript code ko yahan include kiya -->
+    <script src="app.js"></script>
+
 </body>
-</html>
+</html> -->
